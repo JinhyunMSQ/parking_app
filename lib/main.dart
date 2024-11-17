@@ -66,7 +66,7 @@ class _ParkingHomePageState extends State<ParkingHomePage> {
           style: TextStyle(fontSize: 18),
         ) // 오류 메시지
             : Text(
-          "주차장 자리가 총 $_availableSpots 자리 남아 있습니다.",
+          "주차장 자리가 종 $_availableSpots 자리 남아 있습니다.",
           style: const TextStyle(fontSize: 20),
         ), // 정상 데이터 표시
       ),
